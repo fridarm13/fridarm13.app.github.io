@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.login-header {
+    background-color: #77CFD9;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.login-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px;
+}
+
+.login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"] {
+    background-color: #77CFD9;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #288691;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
+body img {
+    width: 200px;
+    height: 172px;
+    margin-left: 137px;
+    margin-right: 137px;
+
+}
+.fondp {
+    background-color: #F2F2F2;
+    width: 500px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    width: 500px;
+    height: 800px;
+    text-align: center;
+}
+.titulo1 {
+}
+
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+#galeria {width: 100%;
+
+padding: 0;
+}
+#galeria ul {
+    display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#galeria ul li{
+    display: block;
+    float: left;
+    width: 200px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    height: auto;
+    text-align: center;
+	
+}
+.img_flotante {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+    text-align: left;
+}
+.album {
+    width: 500px;
+    text-align: left;
+    margin-right: 5px;
+}
+.listacanciones {
+    text-align: left;
+}
+.listacanciones li {
+    padding-bottom: 15px;
+    text-align: left;
+}
+.boton_atras {
+    text-align: left;
+}
+#link {
+}
